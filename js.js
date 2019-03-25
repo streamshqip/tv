@@ -156,4 +156,14 @@ $(document).ready(function(){
    });
 });
 
+$(document).ready(function(){
+    $("#rtk1").click(function(){   
+       $('#channel').html('<iframe width="100%" class="theframe" src="https://livestream.ekranet.com/rtk1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>');
+   });
+});
 
+$(document).ready(function(){
+    $("#rtk3").click(function(){   
+       $('#channel').html('<iframe width="100%" class="theframe" src="https://livestream.ekranet.com/rtk3web" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>');
+   });
+});
